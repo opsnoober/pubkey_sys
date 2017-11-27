@@ -134,7 +134,7 @@ if __name__ == "__main__":
                 sys.exit()
             if not username or not password or not port:
                 username = 'secneo'
-                password = 'vm@u7i8o9p0'
+                password = 'password'
                 port = 22
                 #cmd = "mkdir /home/%s/.ssh && chmod 700 /home/%s/.ssh && echo '%s' >> /home/%s/.ssh/authorized_keys && chmod 600 /home/%s/.ssh/authorized_keys" %(username,username,pubkey,username,username)
                 cmd1 = "mkdir /home/%s/.ssh && chmod 700 /home/%s/.ssh" %(username,username)
